@@ -1,1 +1,3 @@
 # odin-recipes
+
+The first project and I have no idea what am I doing...
