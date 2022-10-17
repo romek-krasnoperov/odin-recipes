@@ -1,24 +1,38 @@
 *{
     box-sizing: border-box;
-    width: 100vw;
     overflow: hidden;
-    background-color:whitesmoke
+    margin: 0;
+    padding: 0;
 }
 
+.background>img{
+    height: 100%;
+    position:absolute;
+    z-index: -1;
+}
 
 .main_menu{
-    font-size: 1.5rem;
-    margin: auto;
-    width: 50%;
-    padding: 0;
-    
+    position: absolute;
+    top: 25vh;
+    left: 40vw;
 }
 
 .main_menu>h1{
     font-size: 8rem;
+    color: dimgrey;
 }
 
+li{
+    font-size: 3rem;
+    display: block;
+    padding: 1rem;
+}
 
 a{
-    display: block;
+    color: darkgray;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: lavenderblush;
 }
