@@ -1,29 +1,22 @@
-*{
+body{
     box-sizing: border-box;
     background-color: whitesmoke;
+    margin: 20px auto;
+    width: 50%;
 }
 
 h1{
     font-size: 5rem;
+    text-align: center;
 }
 
-.one{
-    width: 50vw;
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 0.5rem;
-}
-
-.two{
-    width: 50vw;
-    position: absolute;   
-    top: 0;
-    right: 0;
-    padding: 0.5rem;
+h3, p{
+    text-align: justify;
 }
 
 img{
     max-width: 600px;
     max-height: 400px;
+    display: block;
+    margin: 10px auto;
 }
